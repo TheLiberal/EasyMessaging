@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140.905" height="130.097" viewBox="0 0 140.905 130.097">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1f2f99;
+      }
+    </style>
+  </defs>
+  <g id="Icon_ionic-md-thumbs-up" data-name="Icon ionic-md-thumbs-up" transform="translate(0 -0.001)">
+    <path id="Path_57" data-name="Path 57" class="cls-1" d="M24.124,134.6H82.4a12.431,12.431,0,0,0,11.587-7.928L113.329,80.8a12.967,12.967,0,0,0,.881-4.743V62.976c0-7.149-5.76-15.11-12.806-15.11H61.019l6.1-27.612.2-2.033a9.82,9.82,0,0,0-2.812-6.878L57.665,4.5,14.977,47.629A13.041,13.041,0,0,0,11.25,56.81v65.049A12.775,12.775,0,0,0,24.124,134.6Z" transform="translate(26.695 -4.499)"/>
+    <path id="Path_58" data-name="Path 58" class="cls-1" d="M3.375,15.75H25.058V91.64H3.375Z" transform="translate(-3.375 38.458)"/>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52.682" height="52.682" viewBox="0 0 52.682 52.682">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #03179e;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        fill: #03179e;
+      }
+    </style>
+  </defs>
+  <g id="Group_11" data-name="Group 11" transform="translate(-502.5 -43.318)">
+    <path id="Icon_feather-message-circle" data-name="Icon feather-message-circle" class="cls-1" d="M54.182,27.961A23.13,23.13,0,0,1,51.7,38.449,23.461,23.461,0,0,1,30.721,51.422a23.129,23.129,0,0,1-10.488-2.484L4.5,54.182,9.744,38.449A23.13,23.13,0,0,1,7.26,27.961,23.461,23.461,0,0,1,20.233,6.984,23.129,23.129,0,0,1,30.721,4.5H32.1A23.406,23.406,0,0,1,54.182,26.581Z" transform="translate(499.5 40.318)"/>
+    <rect id="Rectangle_4" data-name="Rectangle 4" class="cls-2" width="25" height="3" rx="1.5" transform="translate(518 58)"/>
+    <rect id="Rectangle_5" data-name="Rectangle 5" class="cls-2" width="25" height="3" rx="1.5" transform="translate(518 66)"/>
+    <rect id="Rectangle_6" data-name="Rectangle 6" class="cls-2" width="25" height="3" rx="1.5" transform="translate(518 74)"/>
+  </g>
+</svg>

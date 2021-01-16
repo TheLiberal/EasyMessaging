@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #03179e;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <g id="instagram_icon" data-name="instagram icon" transform="translate(2 2)">
+    <path id="Path_1" data-name="Path 1" class="cls-1" d="M12.5,3h19A9.5,9.5,0,0,1,41,12.5v19A9.5,9.5,0,0,1,31.5,41h-19A9.5,9.5,0,0,1,3,31.5v-19A9.5,9.5,0,0,1,12.5,3Z" transform="translate(-3 -3)"/>
+    <path id="Path_2" data-name="Path 2" class="cls-1" d="M28.936,19.173a8.482,8.482,0,1,1-7.146-7.146,8.482,8.482,0,0,1,7.146,7.146Z" transform="translate(-1.471 -1.493)"/>
+    <path id="Path_3" data-name="Path 3" class="cls-1" d="M26.25,9.75h0" transform="translate(3.2 -1.2)"/>
+  </g>
+</svg>

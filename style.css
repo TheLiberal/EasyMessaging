@@ -1,0 +1,591 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+}
+
+a:visited {
+  color: #0318a0;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #2B42D9;
+}
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+  font-family: 'Yusei Magic', sans-serif;
+  font-size: 16px;
+  color: #0318a0;
+  overflow-x: hidden;
+}
+
+.first-arrow {
+  position: relative;
+  left: 30%;
+  width: 30%;
+  opacity: 0.25;
+}
+
+.second-arrow {
+  position: relative;
+  left: 40%;
+  width: 30%;
+  opacity: 0.25;
+}
+
+.third-arrow {
+  position: relative;
+  left: 50%;
+  width: 30%;
+  opacity: 0.25;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 2.5rem;
+  padding-top: 7rem;
+  width: 88%;
+  min-height: 100vh;
+  background-color: #F5FAFC;
+  z-index: -2;
+  border-radius: 5px;
+}
+
+.navbar {
+  height: 120px;
+  width: 88vw;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+li {
+  display: inline;
+  font-size: 1.8rem;
+  margin: 0 1.6rem;
+}
+
+.social-icons {
+  fill: #2B42D9;
+  stroke: #2B42D9;
+}
+
+.logo-text {
+  margin-top: 0.6rem;
+  font-size: 3.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.logo-text:hover {
+  color: #0318a0 !important;
+}
+
+.logo-image {
+  width: 12%;
+  margin-top: 0.5rem;
+  margin-left: 0.3rem;
+}
+
+.instagram-logo,
+.facebook-logo {
+  width: 34px;
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.hero-image {
+  position: relative;
+  width: 50%;
+  max-width: 650px;
+}
+
+.hero-text {
+  position: relative;
+  top: 2rem;
+  font-size: 3rem;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.cta-button {
+  width: 350px;
+  height: 80px;
+  line-height: 80px;
+  margin-top: 2.5rem;
+  border-radius: 50px;
+  border: none;
+  background-color: #001BCE;
+  color: white;
+  text-align: center;
+  font-size: 2.3rem;
+  font-family: "Yusei Magic", sans-serif;
+  -webkit-box-shadow: 8px 8px 16px #001bce46;
+          box-shadow: 8px 8px 16px #001bce46;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #0219b1dc;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.learn-more {
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  color: #2B42D9;
+}
+
+.underline {
+  position: relative;
+}
+
+.underline:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  right: 0;
+  background-color: #0318a0;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.underline:hover {
+  cursor: pointer;
+  color: #0219b1dc;
+}
+
+.underline:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+
+.description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: -2rem;
+}
+
+.description-text {
+  margin-top: 5rem;
+  font-size: 2.8rem;
+  text-align: center;
+}
+
+.description-image {
+  width: 40%;
+  max-width: 500px;
+}
+
+.reviews {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 0rem;
+}
+
+.reviews-image {
+  width: 60%;
+  max-width: 700px;
+}
+
+.reviews-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  font-size: 2.8rem;
+}
+
+.reviews-text p {
+  margin-bottom: 3rem;
+}
+
+.reviews-text img {
+  width: 50%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.pros {
+  margin-top: 5rem;
+}
+
+.pros-text {
+  text-align: center;
+  font-size: 2.2rem;
+  margin: 4.5rem 0;
+}
+
+.pros ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.pros ul li p {
+  margin-top: 2rem;
+}
+
+.pros ul-img {
+  max-width: 300px;
+  width: 20%;
+}
+
+.call-to-action {
+  margin-top: 13rem;
+  margin-bottom: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.call-to-action-text {
+  text-align: center;
+  font-size: 4rem;
+}
+
+footer {
+  width: 88vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 1400px) {
+  li {
+    margin: 0 0.5rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .logo-text {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .nav-links {
+    display: none;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  .cta-button {
+    width: 200px;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+  }
+  .learn-more {
+    font-size: 1.5rem;
+    margin-top: 0rem;
+  }
+  .first-arrow {
+    margin-bottom: 2.5rem;
+  }
+  .description {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .description-text {
+    margin: 0rem;
+  }
+  .second-arrow {
+    margin: 1.5rem 0;
+  }
+  .description-text,
+  .reviews-text {
+    font-size: 2.2rem;
+    margin: 0 2rem;
+  }
+  .reviews-text img {
+    margin: 0 auto;
+    margin-top: 0rem;
+    margin-bottom: 1.8rem;
+  }
+  .reviews-text p {
+    margin-bottom: 1rem;
+  }
+  .pros {
+    margin-top: 0rem;
+  }
+  .pros-text {
+    margin-top: 1.8rem;
+  }
+  .pros-img {
+    margin: 0 auto;
+    height: 105px;
+  }
+  .pros ul li {
+    text-align: center;
+  }
+  .pros ul li img {
+    width: 80%;
+  }
+  .call-to-action {
+    margin-top: 8rem;
+  }
+  .call-to-action-text {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  h1 {
+    font-size: 2.7rem;
+  }
+  .cta-button {
+    width: 150px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 1.4rem;
+    margin-bottom: 0rem;
+  }
+  .learn-more {
+    top: -20px;
+    font-size: 1.3rem;
+  }
+  .learn-more-container {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .logo-text {
+    font-size: 2.6rem;
+    margin-top: 0rem;
+  }
+  .container {
+    padding-top: 1rem;
+  }
+  .hero {
+    margin-top: 0rem;
+  }
+  .hero img {
+    width: 45%;
+  }
+  h1 {
+    font-size: 2.2rem;
+  }
+  .cta-button {
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.1rem;
+    margin-bottom: 0rem;
+  }
+  .learn-more {
+    top: -30px;
+    font-size: 1rem;
+  }
+  .description-text,
+  .reviews-text {
+    font-size: 1.8rem;
+  }
+  .pros-img {
+    height: 80px;
+  }
+  .pros ul li p {
+    font-size: 1.5rem;
+  }
+  .call-to-action {
+    margin-top: 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .navbar {
+    height: 80px;
+  }
+  .logo-text {
+    font-size: 2rem;
+  }
+  .container {
+    padding-top: 0rem;
+  }
+  .hero-image {
+    display: none;
+  }
+  .cta-button {
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 1.5rem;
+  }
+  .learn-more {
+    top: -20px;
+    font-size: 1.3rem;
+  }
+  .learn-more-container {
+    margin-bottom: 1rem;
+  }
+  .first-arrow {
+    -webkit-transform: rotate(-50deg);
+            transform: rotate(-50deg);
+    margin: 2rem 0;
+    left: 38%;
+  }
+  .description {
+    margin-top: 0rem;
+  }
+  .description-image {
+    display: none;
+  }
+  .second-arrow {
+    -webkit-transform: rotate(48deg);
+            transform: rotate(48deg);
+    margin: 4rem 0;
+  }
+  .reviews {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .reviews-image {
+    margin-bottom: 1.5rem;
+  }
+  .reviews-text {
+    margin-bottom: 1.8rem;
+  }
+  .third-arrow {
+    -webkit-transform: rotate(-40deg);
+            transform: rotate(-40deg);
+    left: 35%;
+    margin-bottom: 1rem;
+  }
+  p.pros-text {
+    margin-top: 1rem;
+  }
+  .pros ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .pros ul li {
+    margin-bottom: 2.2rem;
+  }
+  .call-to-action-text {
+    font-size: 2.5rem;
+    line-height: 1.3;
+  }
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  footer p {
+    margin: 0.8rem 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
