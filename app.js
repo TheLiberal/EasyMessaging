@@ -1,6 +1,8 @@
 "use strict";
 
 const learnMore = document.querySelector(".learn-more");
+const copyrightYear = document.querySelector(".copyright-year");
+copyrightYear.textContent = new Date().getFullYear();
 
 learnMore.addEventListener("click", scrollPage);
 
